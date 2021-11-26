@@ -9,7 +9,7 @@ options.headless = True
 print("Кому: ", end='')
 mail = input()
 
-print("Cообщение: ", end='')
+print("Сообщение: ", end='')
 mes = input()
 
 browser = webdriver.Chrome(executable_path=r'C:\проги\питон\moduls\chromedriver.exe', options=options)
