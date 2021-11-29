@@ -12,7 +12,7 @@ mail = input()
 print("Сообщение: ", end='')
 mes = input()
 
-browser = webdriver.Chrome(executable_path=r'C:\проги\питон\moduls\chromedriver.exe', options=options)
+browser = webdriver.Chrome(options=options)
 browser.get('https://account.mail.ru/')
 
 for i in range(36, 0, -1):
