@@ -1,5 +1,5 @@
 import time
-from my_config import data
+from config import data
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
