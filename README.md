@@ -7,11 +7,11 @@
 1. Скачать репозиторий к себе на компьютер.
 2. Скачать с сайта [chromedriver.chromium.org](https://chromedriver.chromium.org/) архив с `chromedriver.exe`, 
 соответствующий версии вашего Chrome браузера, и распаковать данный архив в папку `code`.
-3. В терминале:`cd C:\путь\к\репозиторию\MailSender && pip install -r requirements.txt`
+3. В терминале выполнить следующую команду:`cd C:\путь\к\репозиторию\MailSender && pip install -r requirements.txt`
 ### Настройка config.py
 1. `cd code` 
 2. `echo data = {'login': "ваш логин от почты", 'password': "ваш пароль"} >> config.py`
-### Note
+### Важно!
 Логин и пароль должны быть от **mail.ru** почты
 ## Запуск скрипта
 `python mailsender.py`
